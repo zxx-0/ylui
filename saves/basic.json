@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 175,
+        "idCounter": 178,
         "themeColor": "rgba(2,35,64,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -247,7 +247,7 @@
         },
         "yl-server": {
             "addressBar": false,
-            "autoRun": 1,
+            "autoRun": 0,
             "background": false,
             "badge": 0,
             "desc": "YLUI官方后台服务",
@@ -444,63 +444,26 @@
             "urlRandomToken": true
         }
     },
-    "shortcuts": [],
+    "shortcuts": [
+        {
+            "app": "yl-system",
+            "title": "系统设置",
+            "params": {},
+            "hash": ""
+        }
+    ],
     "tiles": [
         {
             "title": "系统",
             "data": [
                 {
                     "x": 0,
-                    "y": 6,
+                    "y": 0,
                     "w": 2,
-                    "h": 2,
-                    "app": "yl-app-store",
-                    "title": "应用商店",
-                    "i": "91",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "x": 0,
-                    "y": 4,
-                    "w": 4,
                     "h": 2,
                     "app": "yl-system",
                     "title": "系统设置",
-                    "i": "110",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "x": 4,
-                    "y": 4,
-                    "w": 2,
-                    "h": 2,
-                    "app": "yl-browser",
-                    "title": "浏览器",
-                    "i": "146",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "x": 0,
-                    "y": 0,
-                    "w": 6,
-                    "h": 4,
-                    "app": "yl-app-home",
-                    "title": "YLUI 官网",
-                    "i": "147",
-                    "params": {},
-                    "hash": ""
-                },
-                {
-                    "x": 2,
-                    "y": 6,
-                    "w": 4,
-                    "h": 2,
-                    "app": "ylui-documents",
-                    "title": "在线文档",
-                    "i": "158",
+                    "i": "177",
                     "params": {},
                     "hash": ""
                 }
