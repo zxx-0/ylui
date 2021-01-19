@@ -247,7 +247,7 @@
         },
         "yl-server": {
             "addressBar": false,
-            "autoRun": 0,
+            "autoRun": 1,
             "background": false,
             "badge": 0,
             "desc": "YLUI官方后台服务",
