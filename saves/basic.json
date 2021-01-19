@@ -442,12 +442,51 @@
             "url": "https://imgchr.com/",
             "customTile": "",
             "urlRandomToken": true
+        },
+        "app-177": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "img",
+                "content": "https://blog.windandleaf.xyz/myself/pic_page/head.jpg",
+                "bg": "rgb(91,115,192)"
+            },
+            "openMode": "normal",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "博客",
+            "url": "https://blog.windandleaf.xyz/",
+            "customTile": "",
+            "urlRandomToken": true
         }
     },
     "shortcuts": [
         {
             "app": "yl-system",
             "title": "系统设置",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-177",
+            "title": "博客",
             "params": {},
             "hash": ""
         }
@@ -458,12 +497,56 @@
             "data": [
                 {
                     "x": 0,
-                    "y": 0,
+                    "y": 6,
                     "w": 2,
+                    "h": 2,
+                    "app": "yl-app-store",
+                    "title": "应用商店",
+                    "i": "91",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 0,
+                    "y": 4,
+                    "w": 4,
                     "h": 2,
                     "app": "yl-system",
                     "title": "系统设置",
-                    "i": "177",
+                    "i": "110",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 4,
+                    "y": 4,
+                    "w": 2,
+                    "h": 2,
+                    "app": "yl-browser",
+                    "title": "浏览器",
+                    "i": "146",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 6,
+                    "h": 4,
+                    "app": "yl-app-home",
+                    "title": "YLUI 官网",
+                    "i": "147",
+                    "params": {},
+                    "hash": ""
+                },
+                {
+                    "x": 2,
+                    "y": 6,
+                    "w": 4,
+                    "h": 2,
+                    "app": "ylui-documents",
+                    "title": "在线文档",
+                    "i": "158",
                     "params": {},
                     "hash": ""
                 }
