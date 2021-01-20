@@ -245,7 +245,7 @@
         <!--开始按钮-->
         <div class="btn shadow-hover fa fa-fw"
              style="width: 36px;"
-             :class="[ 'fa-'+YL.info.iconBtnStart, {btnStartOpen: startMenu.open } ]"
+             :class="[ 'fa-windows', {btnStartOpen: startMenu.open } ]"
              @click="if(startMenu.open){hideOpens();}else{hideOpens();startMenu.open=true} "></div>
         <!--子窗口的按钮-->
         <div class="btn win-task" @click="winTaskClick(id)"
