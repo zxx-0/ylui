@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "./res/img/wallpapers/bg1.jpg",
+        "wallpaper": "https://blog.windandleaf.xyz/myself/pic_page/backgroun_1.jpg",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -10,8 +10,8 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 183,
-        "themeColor": "rgba(2,35,64,1)",
+        "idCounter": 188,
+        "themeColor": "rgba(42,41,47,1)",
         "autoThemeColor": true,
         "wallpapers": [
             {
@@ -72,6 +72,10 @@
             {
                 "image": "./res/img/wallpapers/bg14.jpg",
                 "preview": "./res/img/wallpapers/bg14_1.jpg"
+            },
+            {
+                "image": "https://blog.windandleaf.xyz/myself/pic_page/backgroun_1.jpg",
+                "preview": ""
             }
         ],
         "pathRes": "./res",
@@ -450,9 +454,9 @@
             "badge": 0,
             "desc": "",
             "icon": {
-                "type": "img",
-                "content": "https://blog.windandleaf.xyz/myself/pic_page/head.jpg",
-                "bg": "rgb(91,115,192)"
+                "type": "fa",
+                "content": "home",
+                "bg": "#007FFF"
             },
             "openMode": "outer",
             "plugin": false,
@@ -474,19 +478,91 @@
             "title": "博客",
             "url": "https://blog.windandleaf.xyz/",
             "customTile": "",
+            "urlRandomToken": false
+        },
+        "app-186": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "tv",
+                "bg": "#E32636"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "哔哩哔哩",
+            "url": "https://www.bilibili.com/v/popular/rank/all",
+            "customTile": "",
+            "urlRandomToken": true
+        },
+        "app-187": {
+            "addressBar": false,
+            "autoRun": 0,
+            "background": false,
+            "badge": 0,
+            "desc": "",
+            "icon": {
+                "type": "fa",
+                "content": "music",
+                "bg": "#E32636"
+            },
+            "openMode": "outer",
+            "plugin": false,
+            "position": {
+                "autoOffset": true,
+                "left": true,
+                "top": true,
+                "x": "x*0.05",
+                "y": "y*0.05"
+            },
+            "version": "1.0.0",
+            "poweredBy": "",
+            "resizable": true,
+            "single": false,
+            "size": {
+                "height": "y*0.8-80",
+                "width": "x*0.8"
+            },
+            "title": "咪咕音乐",
+            "url": "https://music.migu.cn/",
+            "customTile": "",
             "urlRandomToken": true
         }
     },
     "shortcuts": [
         {
-            "app": "yl-system",
-            "title": "系统设置",
+            "app": "app-177",
+            "title": "博客",
             "params": {},
             "hash": ""
         },
         {
-            "app": "app-177",
-            "title": "博客",
+            "app": "app-186",
+            "title": "bilibili",
+            "params": {},
+            "hash": ""
+        },
+        {
+            "app": "app-187",
+            "title": "咪咕音乐",
             "params": {},
             "hash": ""
         }
@@ -494,7 +570,19 @@
     "tiles": [
         {
             "title": "系统",
-            "data": []
+            "data": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 2,
+                    "h": 2,
+                    "app": "yl-system",
+                    "title": "系统设置",
+                    "i": "185",
+                    "params": {},
+                    "hash": ""
+                }
+            ]
         }
     ],
     "startMenu": {
@@ -502,56 +590,14 @@
         "height": 494,
         "sidebar": [
             {
-                "app": "yl-browser",
-                "title": "浏览器",
-                "params": {},
-                "hash": ""
-            },
-            {
                 "app": "yl-system",
                 "title": "系统设置"
             }
         ],
         "menu": {
-            "itemPushed-85": {
-                "app": "yl-browser",
-                "title": "浏览器",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-89": {
-                "app": "yl-app-home",
-                "title": "YLUI 官网",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-96": {
+            "itemPushed-183": {
                 "app": "yl-system",
                 "title": "系统设置",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-88": {
-                "app": "yl-app-store",
-                "title": "应用商店",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-153": {
-                "app": "ylui-documents",
-                "title": "在线文档",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-155": {
-                "app": "ylui-gitee",
-                "title": "码云仓库",
-                "params": {},
-                "hash": ""
-            },
-            "itemPushed-157": {
-                "app": "ylui-github",
-                "title": "github",
                 "params": {},
                 "hash": ""
             }
