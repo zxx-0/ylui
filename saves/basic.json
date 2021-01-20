@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 188,
+        "idCounter": 189,
         "themeColor": "rgba(42,41,47,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -598,6 +598,12 @@
             "itemPushed-183": {
                 "app": "yl-system",
                 "title": "系统设置",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-188": {
+                "app": "app-177",
+                "title": "博客",
                 "params": {},
                 "hash": ""
             }
