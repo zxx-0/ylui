@@ -4,7 +4,7 @@ YL.static = {
   version: "1.0.0", // 网站版本号
   iconBtnStart: 'html5', //主图标
   author: '风子',//作者*
-  contactInformation: '//null',//联系方式
+  contactInformation: 'https://blog.windandleaf.xyz/',//联系方式
   officialWebsite: 'https://ylui.yuri2.cn/',//软件官网
   welcome: '本网站UI由 YLUI 强力驱动\n更多信息：//ylui.yuri2.cn',//加载完毕控制台提示信息
   copyrightDetail: 'YLUI',//版权详细信息
