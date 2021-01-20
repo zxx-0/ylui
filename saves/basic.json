@@ -555,14 +555,14 @@
             "hash": ""
         },
         {
-            "app": "app-186",
-            "title": "bilibili",
+            "app": "app-187",
+            "title": "咪咕音乐",
             "params": {},
             "hash": ""
         },
         {
-            "app": "app-187",
-            "title": "咪咕音乐",
+            "app": "app-186",
+            "title": "哔哩哔哩",
             "params": {},
             "hash": ""
         }
@@ -595,12 +595,6 @@
             }
         ],
         "menu": {
-            "itemPushed-183": {
-                "app": "yl-system",
-                "title": "系统设置",
-                "params": {},
-                "hash": ""
-            },
             "itemPushed-188": {
                 "app": "app-177",
                 "title": "博客",
