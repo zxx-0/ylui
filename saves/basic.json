@@ -491,7 +491,7 @@
                 "content": "music",
                 "bg": "#E32636"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
@@ -524,7 +524,7 @@
                 "content": "cloud",
                 "bg": "#E32636"
             },
-            "openMode": "normal",
+            "openMode": "outer",
             "plugin": false,
             "position": {
                 "autoOffset": true,
