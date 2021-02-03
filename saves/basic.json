@@ -2,7 +2,7 @@
     "configs": {
         "topTaskBar": false,
         "sound": false,
-        "wallpaper": "https://blog.windandleaf.xyz/myself/pic_page/backgroun_1.jpg",
+        "wallpaper": "https://blog.windandleaf.xyz/myself/pic_page/www_home.png",
         "wallpaperBlur": false,
         "wallpaperSlide": false,
         "wallpaperSlideRandom": true,
@@ -11,7 +11,7 @@
         "wallpaperSlideIndex": 8,
         "openMax": 9,
         "idCounter": 195,
-        "themeColor": "rgba(42,41,47,1)",
+        "themeColor": "rgba(22,21,21,1)",
         "autoThemeColor": true,
         "wallpapers": [
             {
@@ -75,6 +75,10 @@
             },
             {
                 "image": "https://blog.windandleaf.xyz/myself/pic_page/backgroun_1.jpg",
+                "preview": ""
+            },
+            {
+                "image": "https://blog.windandleaf.xyz/myself/pic_page/www_home.png",
                 "preview": ""
             }
         ],
