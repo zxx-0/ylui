@@ -10,7 +10,7 @@
         "wallpaperSlideTime": 1519442460788,
         "wallpaperSlideIndex": 8,
         "openMax": 9,
-        "idCounter": 192,
+        "idCounter": 195,
         "themeColor": "rgba(42,41,47,1)",
         "autoThemeColor": true,
         "wallpapers": [
@@ -455,7 +455,7 @@
             "desc": "",
             "icon": {
                 "type": "fa",
-                "content": "home",
+                "content": "user",
                 "bg": "#007FFF"
             },
             "openMode": "outer",
@@ -489,7 +489,7 @@
             "icon": {
                 "type": "fa",
                 "content": "music",
-                "bg": "#E32636"
+                "bg": "#007FFF"
             },
             "openMode": "outer",
             "plugin": false,
@@ -522,7 +522,7 @@
             "icon": {
                 "type": "fa",
                 "content": "cloud",
-                "bg": "#E32636"
+                "bg": "#007FFF"
             },
             "openMode": "outer",
             "plugin": false,
@@ -590,24 +590,30 @@
         "height": 494,
         "sidebar": [
             {
-                "app": "yl-system",
-                "title": "系统设置"
-            }
-        ],
-        "menu": {
-            "itemPushed-188": {
                 "app": "app-177",
                 "title": "博客",
                 "params": {},
                 "hash": ""
             },
-            "itemPushed-189": {
+            {
+                "app": "yl-system",
+                "title": "系统设置"
+            }
+        ],
+        "menu": {
+            "itemPushed-192": {
+                "app": "app-177",
+                "title": "博客",
+                "params": {},
+                "hash": ""
+            },
+            "itemPushed-193": {
                 "app": "app-187",
                 "title": "音乐",
                 "params": {},
                 "hash": ""
             },
-            "itemPushed-191": {
+            "itemPushed-194": {
                 "app": "app-190",
                 "title": "网盘",
                 "params": {},
