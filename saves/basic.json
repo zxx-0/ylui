@@ -515,7 +515,7 @@
             "title": "音乐",
             "url": "https://music.windandleaf.xyz/",
             "customTile": "",
-            "urlRandomToken": true
+            "urlRandomToken": false
         },
         "app-190": {
             "addressBar": false,
@@ -546,7 +546,7 @@
                 "width": "x*0.8"
             },
             "title": "网盘",
-            "url": "https://drive.windandleaf.xyz/",
+            "url": "https://onedrive.windandleaf.xyz/",
             "customTile": "",
             "urlRandomToken": false
         }
